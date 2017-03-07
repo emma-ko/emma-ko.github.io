@@ -3,7 +3,8 @@
     <head>
          <style>
             body {
-                background: rgb(12, 42, 69);
+                background:#060733;
+                background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a6/aa/ac/a6aaac75dc2ed5f7fc372d88da857c3a.jpg");
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -16,19 +17,20 @@
                 max-width: 800px;
                 margin: auto;
             }
-
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: #6E0000;
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                padding:10px;
             }
             nav ul {
                 list-style-image: none;
@@ -46,6 +48,10 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius:10px;
+            }
+            [id=main-content]{
+                padding:10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -73,10 +79,10 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
-            
+            <div id=main-content>
             <main>
                 <div class="sidebar">
-                    <img src="https://ichef.bbci.co.uk/images/ic/480xn/p025wvg8.jpg">
+                    <img src="/13173539_10153655317562939_192200825804000580_o.jpg">
                 </div>
 
                 <div class="content">
@@ -92,6 +98,7 @@
                     </section>
                 </div>
             </main>
+            </div>
         </div>
     </body>
 </html>
